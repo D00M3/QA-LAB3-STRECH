@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Stage 1"){
             steps {
-                sh "docker rm -f $(docker ps -a -q) || true"
+                sh "sh deploy.sh"
             }
         }
         stage("Stage 2"){
