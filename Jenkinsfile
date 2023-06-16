@@ -13,7 +13,7 @@ pipeline {
         }
         stage("Stage 3"){
             steps {
-                sh "docker run -d -t --name jenkins jenkins2""
+                sh "docker run -d -t --name jenkins jenkins2"
             }
         }
     }
