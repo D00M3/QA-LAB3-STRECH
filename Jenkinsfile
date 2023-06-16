@@ -6,3 +6,5 @@ pipeline {
                 sh "docker build -t Jenkins ."
             }
         }
+    }
+}
